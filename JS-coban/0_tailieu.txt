@@ -1,0 +1,10 @@
+- Tham chiếu và tham trị 
+https://viblo.asia/p/tham-chieu-va-tham-tri-trong-javascript-RQqKL6X0l7z
+
+-Object và các hàm hỗ trợ xử lý object (object.prototype)
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+
+-Mảng và các hàm hỗ trợ xử lý mảng (array.prototype)
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array 
+
+-
