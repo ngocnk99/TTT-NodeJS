@@ -1,17 +1,43 @@
-const array1 = [1, 2, 3, 4, "m", 5, "e", 6, 7, 8, 9, "a", "b", "c", 1, 6];
-const array2 = [9, "a", "b", "c", 1, 6, 1, 4, "m", 5];
+const a = [
+  { id: 37, namme: "Hệ thống", parentId: 0, status: 1 },
+  { id: 282, namme: "Nhóm sản phẩm", parentId: 37, status: 1 },
+  { id: 289, namme: "Thương hiệu", parentId: 37, status: 1 },
+  { id: 290, namme: "Chi nhánh", parentId: 37, status: 2 },
+  { id: 307, namme: "Giao dịch", parentId: 0, status: 0 },
+  { id: 310, namme: "Báo cáo", parentId: 0, status: 0 },
+  { id: 329, namme: "Hàng hóa", parentId: 310, status: 0 },
+  { id: 312, namme: "Tài khoản ngân hàng", parentId: 37, status: 0 },
+  { id: 313, namme: "Sản phẩm chất luợng cao", parentId: 282, status: 2 },
+  { id: 314, namme: "Thương hiệu quốc tế", parentId: 289, status: 1 },
+];
 
-// Tìm kiếm các phần tử giống nhau
-const findSameElement = (array1, array2) => {
-  return [];
-};
+// viết function trả ra kết quả như dưới
+// viết function trả ra kết quả như dưới , sử dụng Array.reduce
 
-// hoàn thiện function findSameElement và đánh giá độ phức tạp của thuật toán.
-
-// hoàn thiện function findSameElement và sử dụng Array.filter
-
-// hoàn thiện function findSameElement và sử dụng Array.reduce
-
-// với mỗi một prototype của Array (forEach, map, filter, find, include,...) được tính là một vòng for.
-// Hãy hoàn thành function findSameElement mà không sủ dụng 2 hoăc nhiều hơn 2 vòng for lồng nhau
-// Gợi ý: dùng cách lưu trữ giá trị của object   (object[key])
+const tree = [
+  {
+    status: 2,
+    list: [
+      { id: 290, namme: "Chi nhánh", parentId: 37, status: 2 },
+      { id: 313, namme: "Sản phẩm chất luợng cao", parentId: 282, status: 2 },
+    ],
+  },
+  {
+    status: 1,
+    list: [
+      { id: 37, namme: "Hệ thống", parentId: 0, status: 1 },
+      { id: 282, namme: "Nhóm sản phẩm", parentId: 37, status: 1 },
+      { id: 289, namme: "Thương hiệu", parentId: 37, status: 1 },
+      { id: 314, namme: "Thương hiệu quốc tế", parentId: 289, status: 1 },
+    ],
+  },
+  {
+    status: 0,
+    list: [
+      { id: 307, namme: "Giao dịch", parentId: 0, status: 0 },
+      { id: 310, namme: "Báo cáo", parentId: 0, status: 0 },
+      { id: 329, namme: "Hàng hóa", parentId: 310, status: 0 },
+      { id: 312, namme: "Tài khoản ngân hàng", parentId: 37, status: 0 },
+    ],
+  },
+];

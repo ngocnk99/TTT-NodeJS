@@ -15,8 +15,8 @@ const createTree = (list) => {
   return []; // tree;
 };
 
-// Hoàn thanh function createTree để tạo 1 tree 3 cấp , kết quả giống như bên dưới
-
+// Hoàn thanh function createTree để tạo 1 tree(số cấp không biết trước, tùy thuộc vào dữ liệu đầu vào).kết quả giống như bên dưới
+// Gợi ý: dùng cách lưu trữ giá trị của object   (object[key])  trong bài tập 1 và 2
 const tree = [
   {
     id: 37,

@@ -1,8 +1,8 @@
-const array1 = [1, 2, 3, 4, "m", 5, "e", 6, 7, 8, 9, "a", "b", "c", 1, 6];
-const array2 = [9, "a", "b", "c", 1, 6, 1, 4, "m", 5];
+const array1 = ["1", "2", "m", "5", "e", "6", "7", "8", "9", "a"];
+const array2 = ["9", "a", "b", "c", "1", "6", "4", "m"];
 
 // Tìm kiếm các phần tử giống nhau
-const findSameElement = (array1, array2) => {
+const findSameElement = (array, array2) => {
   return [];
 };
 
