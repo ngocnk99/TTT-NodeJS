@@ -1,10 +1,11 @@
 - Tham chiếu và tham trị 
 https://viblo.asia/p/tham-chieu-va-tham-tri-trong-javascript-RQqKL6X0l7z
 
--Object và các hàm hỗ trợ xử lý object (object.prototype)
+- Object và các hàm hỗ trợ xử lý object (object.prototype)
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
 
--Mảng và các hàm hỗ trợ xử lý mảng (array.prototype)
+- Mảng và các hàm hỗ trợ xử lý mảng (array.prototype)
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array 
 
--
+- Callback và bất đồng bộ(Promises và async await)
+https://www.loginradius.com/blog/engineering/callback-vs-promises-vs-async-await/

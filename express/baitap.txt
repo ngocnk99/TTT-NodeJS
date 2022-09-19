@@ -1,0 +1,10 @@
+thiết kế server api  quản lý học sinh, môn học, điểm thi.
+
+Học sinh: id, tên học sinh, mã học sinh, năm sinh, lớp học  
+Môn học: id, tên môn học, mã môn học.
+Điểm thi: số điểm , loại bài kiểm tra (15 phút, 45 phút , giữa kì , cuối kì) , thuộc môn học nào ? , của học sinh nào.
+
+Yêu cầu: 
+- Thiêt kế các object lưu trữ học sinh, môn học, điểm thi.
+- Cấu trúc server phải đủ các phần: router => controller => service
+- Mỗi một phần quản lý phải đủ chức năng CRUD : thêm, sửa, xóa , lấy danh sách.
