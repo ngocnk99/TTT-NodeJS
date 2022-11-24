@@ -13,7 +13,7 @@ const a = [
 
 // viết function trả ra kết quả như dưới
 // viết function trả ra kết quả như dưới , sử dụng Array.reduce
-
+// group các phần tử theo status
 const tree = [
   {
     status: 2,
